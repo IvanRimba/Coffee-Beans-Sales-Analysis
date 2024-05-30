@@ -18,3 +18,13 @@ This data was obtained from kaggle
 5. Created profits column - Calculated profit using formula Profit per unit*quantity. 
 
 ### Variable Engineering
+
+### Exloratory Data Analysis
+- What is the total revenue for all those years?
+- What is the distribution of revenue by coffee type?
+- In Which countries are the revenues highest and lowest?
+- What is the trend of revenue along the years?
+- What is the total profit for all those years?
+- What is the distribution of profit by coffee type?
+- what coffee types are most and least preferred countrywise?
+- what coffee type is generally preffered?
