@@ -30,7 +30,7 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 - what coffee type is generally preffered?
 
 ### Code
-```sql
+```SQL
 CREATE DATABASE coffeebeans;
 
 CREATE TABLE coffeecustomers;
@@ -59,16 +59,24 @@ FROM orders
 SELECT * 
 FROM duplicates
 WHERE row_num > 1;
-
-
+```
 ### Findings
 - The total revenue for the four years was $45.13K.
 - Excelsa coffee yielded the highest revenue at $12,306 closeley followed by Liberica at $12,054. Arabica and Robusta yielded $11,768 and $9,005 respectively.
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
 - Total profit stood at $4.52K.
-- Liberica coffee yielded the largest profit at $1576 while Robusta yielded the lowest proit at $540. Excelsa and Arabica yielded $1353 and $1059 respectively.
-- In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland Arabica is the most preferred coffee type while Excelsa is the least preferred.
-- The most ordered coffee type is Arabica.
+- Liberica coffee yielded the largest profit at $1,576 while Robusta yielded the lowest proit at $540. Excelsa and Arabica yielded $1,353 and $1,059 respectively.
+- In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
+- The most ordered coffee type is Arabica. 
+
+### Recommendations
+- Increase market efforts to capitalize on the high revenue potential of Excelsa coffee.
+- Find out why Robusta lags behind in sales. Do promotions and discounts to increase its revenue.
+- Review the costs of Liberica so as to maintain and most preferably increase its large proitability.
+- Reevaluate the pricing and costs of Robusta to increase its profit.
+- Ensure ample stock of Arabica to meet its high demand.
+- Run promotions centered around arabica.
+- Gather customer feedback to further enhance arabica offerings based on local offerings.
 
 
 
