@@ -66,9 +66,15 @@ WHERE row_num > 1;
 
   ![Revenue by Coffee type](images/coffeetyperevenue.png) 
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
+
+  ![Revenue by country](images/coffeerevenuebycountry.png)
 - Total profit stood at $4.52K.
 - Liberica coffee yielded the largest profit at $1,576 while Robusta yielded the lowest proit at $540. Excelsa and Arabica yielded $1,353 and $1,059 respectively.
+
+  ![Profit by Coffee type](images/coffeeprofit.png)
 - In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
+
+  ![Quantity by coffee type and country](images/coffeetypeandcountry.png) 
 - The most ordered coffee type is Arabica.
   
   ![Quantity by coffee type](images/coffeetypequantity.png)
