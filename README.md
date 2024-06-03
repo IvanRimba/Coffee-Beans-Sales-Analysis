@@ -64,7 +64,7 @@ WHERE row_num > 1;
 - The total revenue for the four years was $45.13K.
 - Excelsa coffee yielded the highest revenue at $12,306 closeley followed by Liberica at $12,054. Arabica and Robusta yielded $11,768 and $9,005 respectively.
 
-  ![Revenue by Coffee type](images/coffeetyperevenue.png) 
+  ![Revenue by Coffee type](images/revenuebycoffeetype.png) 
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
 
   ![Revenue by country](images/coffeerevenuebycountry.png)
@@ -77,7 +77,7 @@ WHERE row_num > 1;
   ![Quantity by coffee type and country](images/coffeetypeandcountry.png) 
 - The most ordered coffee type is Arabica.
   
-  ![Quantity by coffee type](images/coffeetypequantity.png)
+  ![Quantity by coffee type](images/quantitybycoffeetype.png)
 
 ### Recommendations
 - Increase market efforts to capitalize on the high revenue potential of Excelsa coffee.
