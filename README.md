@@ -81,7 +81,10 @@ WHERE row_num > 1;
   ![Quantity by coffee type](images/quantitybycoffeetype.png)
 - The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts.In UK, customers prefer the balanced flavor found in medium brown roasts.
 
+  ![Roast type by country](images/coffeeroasttypequantity.png)
 - In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
+
+  ![Profit by year](images/coffeeprofitbyyear.png)
 - ### Recommendations
 - Increase market efforts to capitalize on the high revenue potential of Excelsa coffee.
 - Find out why Robusta lags behind in sales. Do promotions and discounts to increase its revenue.
