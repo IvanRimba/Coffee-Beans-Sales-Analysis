@@ -1,25 +1,25 @@
 # Coffee-Beans-Analysis
 
 ### Project Overview
-This project aims to analyze coffee sales data to uncover insights into revenue, profit margins, and customer preferences across different regions and coffee types. By examining trends and patterns, the project seeks to provide actionable recommendations for optimizing sales strategies and improving overall business performance.
+This project aims to analyze coffee sales data to unwrap insights into revenue, profit, and customer preferences across different regions and coffee types. By scrutinizing trends and patterns, the project seeks to provide actionable recommendations for optimizing sales strategies and improving overall business performance.
 
 ### Data sources
 This data was obtained from kaggle. You can find it [here.](https://www.kaggle.com/datasets/saadharoon27/coffee-bean-sales-raw-dataset)
 
 ### Tools
 - SQL: Data cleaning and Data analysis
-- Power BI: Visualization
+- Power BI: DAX and Visualization
 
 ### Data cleaning/preparation
 1. Data Loading - Created a database and also created three tables. Loaded data into the tables.
-2. Dropped useless columns.
-3. Duplicate check - Checked for duplicates and confirmed there are no duplicate records.
-4. Data type conversion - Updated date format to ensure proper analysis.
-5. Created profits column - Calculated profit using formula Profit per unit*quantity.
+2. Checking and handling missing values.
+3. Dropped useless columns.
+4. Duplicate check - Checked for duplicates and confirmed there are no duplicate records.
+5. Data type conversion - Updated date format to ensure proper analysis.
+6. Feature engineering - Joined various tables and created another table as a view. The sales_summary.
 
-### Dashboard creation
+### Dashboards 
 ![Dashboard](images/coffeeDB1.png)
-
 
 ![Dashboard](images/coffeeDB2.png)
 
@@ -41,11 +41,12 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 - what coffee type is generally preffered?
 - What roast type is mostly preferred countrywise?
 
-## Loyalty program
+#### Loyalty program
 - How many customers have the loyalty cards?
 - What is the distribution of quantity by loyaltycards?
 
 ### Code
+Find the rest of the code, check the [SQL_queries.sql](https://github.com/IvanRimba/coffee-beans-analysis/blob/main/SQL_queries.sql) file.
 ```SQL
 CREATE DATABASE coffeebeans;
 
@@ -88,13 +89,15 @@ WHERE row_num > 1;
 - Liberica coffee yielded the largest profit at $1,576 while Robusta yielded the lowest proit at $540. Excelsa and Arabica yielded $1,353 and $1,059 respectively.
 
   ![Profit by Coffee type](images/coffeeprofit.png)
+
+   -In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
+
+  ![Profit by year](images/coffeeprofitbyyear.png)
 - In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
 
   ![Quantity by coffee type and country](images/coffeetypeandcountry.png)
 
-  -In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
-
-  ![Profit by year](images/coffeeprofitbyyear.png)
+ 
 - The most ordered coffee type is Arabica.
   
   ![Quantity by coffee type](images/quantitybycoffeetype.png)
