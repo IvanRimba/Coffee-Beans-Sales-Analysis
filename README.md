@@ -127,7 +127,8 @@ WHERE row_num > 1;
 
 ### Limitations
 - The dataset does not provide the costs details causing profit calculation errors and inability to analyze cost efficiency.
-- The data lacks detailed customer demographics which limits further segmentation analysis. The data upto July 2022 limits analysis of recent trends.
+- The data lacks detailed customer demographics which limits further segmentation analysis.
+- The data upto July 2022 limits analysis of recent trends.
 
 
 
