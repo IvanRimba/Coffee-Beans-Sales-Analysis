@@ -6,21 +6,22 @@ This project aims to analyze coffee sales data to uncover insights into revenue,
 ### Data sources
 This data was obtained from kaggle. You can find it [here.](https://www.kaggle.com/datasets/saadharoon27/coffee-bean-sales-raw-dataset)
 
-also here <a href="https://www.kaggle.com/datasets/saadharoon27/coffee-bean-sales-raw-dataset" target="_blank">Click here to open in a new tab</a>
-
-
 ### Tools
 - SQL: Data cleaning and Data analysis
 - Power BI: Visualization
 
 ### Data cleaning/preparation
 1. Data Loading - Created a database and also created three tables. Loaded data into the tables.
-2. Dropped usless columns.
+2. Dropped useless columns.
 3. Duplicate check - Checked for duplicates and confirmed there are no duplicate records.
 4. Data type conversion - Updated date format to ensure proper analysis.
 5. Created profits column - Calculated profit using formula Profit per unit*quantity.
 
-### Variable Engineering
+### Dashboard creation
+![Dashboard](images/coffeeDB1.png)
+
+
+![Dashboard](images/coffeeDB2.png)
 
 ### Exploratory Data Analysis
 #### Revenue
