@@ -102,12 +102,13 @@ WHERE row_num > 1;
   
   ![Quantity by coffee type](images/quantitybycoffeetype.png)
 - The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts.In UK, customers prefer the balanced flavor found in medium brown roasts.
-
+ 
   ![Roast type by country](images/coffeeroasttypequantity.png)
   
- - The number of customers without loyalty cards is 470, while customers with loyalty cards are 440. Interestingly, the non cardholders pruchase more in quantity than cardholders.   
+ - The number of customers without loyalty cards is 470, while customers with loyalty cards are 440. Non cardholders tend to purchase more in quantity than cardholders.  
 
-  ![loyalty card](images/coffeequantitybyloyalty.png)
+   ![Loyalty card](images/coffeequantitybyloyaltycard.png)
+
   
  ### Recommendations
 - Increase market efforts to take advantage on the high revenue potential of Excelsa coffee.
@@ -126,8 +127,7 @@ WHERE row_num > 1;
 
 ### Limitations
 - The dataset does not provide the costs details causing profit calculation errors and inability to analyze cost efficiency.
-- The data lacks detailed customer demographics which limits further segmentation analysis.
-- The data upto July 2022 limits analysis of recent trends.
+- The data lacks detailed customer demographics which limits further segmentation analysis. The data upto July 2022 limits analysis of recent trends.
 
 
 
