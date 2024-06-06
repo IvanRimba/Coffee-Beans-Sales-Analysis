@@ -8,31 +8,31 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 
 ### Tools
 - SQL: Data cleaning and Data analysis
-- Power BI: Creating a dashboard
+- Power BI: Visualization
 
 ### Data cleaning/preparation
 1. Data Loading - Created a database and also created three tables. Loaded data into the tables.
 2. Dropped usless columns.
-3. Duplicate check - Checked for duplicates and confirmed there are no duplicate record.
+3. Duplicate check - Checked for duplicates and confirmed there are no duplicate records.
 4. Data type conversion - Updated date format to ensure proper analysis.
 5. Created profits column - Calculated profit using formula Profit per unit*quantity. 
 
 ### Variable Engineering
 
 ### Exploratory Data Analysis
-## Revenue
+#### Revenue
 - What is the total revenue?
 - What is the distribution of revenue by coffee type?
 - In Which countries are the revenues highest and lowest?
 - What is the trend of revenue along the years?
 
-## Profit
+#### Profit
 - What is the total profit?
 - Express the profit as a percentage of Total Revenue.
 - What is the distribution of profit by coffee type?
 - What is th distribution of profit by years?
 
-## Customer preferences
+#### Customer preferences
 - what coffee types are most and least preferred countrywise?
 - what coffee type is generally preffered?
 - What roast type is mostly preferred countrywise?
@@ -86,31 +86,30 @@ WHERE row_num > 1;
   ![Profit by Coffee type](images/coffeeprofit.png)
 - In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
 
-  ![Quantity by coffee type and country](images/coffeetypeandcountry.png) 
+ ![Quantity by coffee type and country](images/coffeetypeandcountry.png) 
+-In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
+
+  ![Profit by year](images/coffeeprofitbyyear.png)
 - The most ordered coffee type is Arabica.
   
   ![Quantity by coffee type](images/quantitybycoffeetype.png)
 - The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts.In UK, customers prefer the balanced flavor found in medium brown roasts.
 
   ![Roast type by country](images/coffeeroasttypequantity.png)
-  
-- In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
-
-  ![Profit by year](images/coffeeprofitbyyear.png)
-
  - The number of customers without loyalty cards is 470, while customers with loyalty cards are 440. Interestingly, the non cardholders pruchase more in quantity than cardholders.
      
   ![loyalty card](images/coffeequantitybyloyalty.png)
   
  ### Recommendations
-- Increase market efforts to capitalize on the high revenue potential of Excelsa coffee.
+- Increase market efforts to take advantage on the high revenue potential of Excelsa coffee.
 - Find out why Robusta lags behind in sales. Do promotions and discounts to increase its revenue.
 - Review the costs of Liberica so as to maintain and most preferably increase its large proitability.
 - Reevaluate the pricing and costs of Robusta to increase its profit.
 - Ensure ample stock of Arabica to meet its high demand.
 - Run promotions centered around arabica.
 - Gather customer feedback to further enhance arabica offerings based on local offerings.
-- Emphasize and promote the most preferred roasts across countries in marketing campaigns. Customer engagement to use feedbacks and reviews to improve roast offerings to ensure they meet customer preferences in each country. 
+- Emphasize and promote the most preferred roasts across countries in marketing campaigns. Customer engagement to use feedbacks and reviews to improve roast offerings to ensure they 
+  meet customer preferences in each country. 
 - Embrace the succesful strategies from 2021 to stabilize and increase profits. 
 
 
