@@ -97,23 +97,30 @@ WHERE row_num > 1;
 - The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts.In UK, customers prefer the balanced flavor found in medium brown roasts.
 
   ![Roast type by country](images/coffeeroasttypequantity.png)
- - The number of customers without loyalty cards is 470, while customers with loyalty cards are 440. Interestingly, the non cardholders pruchase more in quantity than cardholders.
-     
+  
+ - The number of customers without loyalty cards is 470, while customers with loyalty cards are 440. Interestingly, the non cardholders pruchase more in quantity than cardholders.   
+
   ![loyalty card](images/coffeequantitybyloyalty.png)
   
  ### Recommendations
 - Increase market efforts to take advantage on the high revenue potential of Excelsa coffee.
 - Find out why Robusta lags behind in sales. Do promotions and discounts to increase its revenue.
-- Review the costs of Liberica so as to maintain and most preferably increase its large proitability.
+- Review the costs of Liberica so as to maintain and most preferably increase its large profitability.
 - Reevaluate the pricing and costs of Robusta to increase its profit.
 - Ensure ample stock of Arabica to meet its high demand.
 - Run promotions centered around arabica.
 - Gather customer feedback to further enhance arabica offerings based on local offerings.
 - Emphasize and promote the most preferred roasts across countries in marketing campaigns. Customer engagement to use feedbacks and reviews to improve roast offerings to ensure they 
   meet customer preferences in each country. 
-- Embrace the succesful strategies from 2021 to stabilize and increase profits. 
+- Embrace the succesful strategies from 2021 to stabilize and increase profits.
+- Revamp the loyalty program. Offer more attractive and relevant rewards to attract membership.
+- Make the loyalty card registration process simple.
 
 
+### Limitations
+- The dataset does not provide the costs details causing profit calculation errors and inability to analyze cost efficiency.
+- The data lacks detailed customer demographics which limits further segmentation analysis.
+- The data upto July 2022 limits analysis of recent trends.
 
 
 
