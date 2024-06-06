@@ -20,15 +20,26 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 ### Variable Engineering
 
 ### Exploratory Data Analysis
-- What is the total revenue for all those years?
+## Revenue
+- What is the total revenue?
 - What is the distribution of revenue by coffee type?
 - In Which countries are the revenues highest and lowest?
 - What is the trend of revenue along the years?
-- What is the total profit for all those years?
+
+## Profit
+- What is the total profit?
+- Express the profit as a percentage of Total Revenue.
 - What is the distribution of profit by coffee type?
+- What is th distribution of profit by years?
+
+## Customer preferences
 - what coffee types are most and least preferred countrywise?
 - what coffee type is generally preffered?
 - What roast type is mostly preferred countrywise?
+
+## Loyalty program
+- How many customers have the loyalty cards?
+- What is the distribution of quantity by loyaltycards?
 
 ### Code
 ```SQL
