@@ -34,11 +34,11 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 - What is the total profit?
 - Express the profit as a percentage of Total Revenue.
 - What is the distribution of profit by coffee type?
-- What is th distribution of profit by years?
+- What is the distribution of profit by years?
 
 #### Customer preferences
 - what coffee types are most and least preferred countrywise?
-- what coffee type is generally preffered?
+- what coffee type is generally preferred?
 - What roast type is mostly preferred countrywise?
 
 #### Loyalty program
