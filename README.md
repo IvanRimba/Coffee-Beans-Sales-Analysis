@@ -21,7 +21,7 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 ### Dashboards 
 ![Dashboard](images/coffeeDB1.png)
 
-![Dashboard](images/coffeeDB22.png)
+![Dashboard](images/CoffeeDB23.png) 
 
 ### Exploratory Data Analysis
 #### Revenue
