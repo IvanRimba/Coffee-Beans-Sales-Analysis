@@ -6,6 +6,31 @@ This project aims to analyze coffee sales data to unwrap insights into revenue, 
 ### Data sources
 This data was obtained from kaggle. You can find it [here.](https://www.kaggle.com/datasets/saadharoon27/coffee-bean-sales-raw-dataset)
 
+### Data Set
+#### Orders Sheet:
+- Order ID: A unique identifier for each order made.
+- Order Date: The date when the order was placed.
+- Customer ID: An identifier linking the order to a specific customer.
+- Product ID: A unique identifier for each coffee product.
+- Quantity: Quantity of the coffee product ordered.
+
+#### Customer Sheet:
+- Customer ID: A unique identifier for each customer.
+- Customer Name: Name of the customer.
+- Email Address: Contact information for customers.
+- Phone Number: Contact information for customers.
+
+#### Products Worksheet:
+
+- Product ID: A unique identifier for each coffee product.
+- Coffee Type: The type or blend of coffee. Such as Arabica - Ara, Robusta - Rob, Liberica - Lib or Excelsa - Exc.
+- Roast Type: The roast level. Light - L, Medium - M, or Dark - D roast.
+- Size: Information about the product size.
+- Unit Price: The price of a single unit of the coffee product.
+- Price Per 100g: The price per 100 grams of the product.
+- Profit: Profitability of each coffee product.
+
+
 ### Tools
 - SQL: Data cleaning and Data analysis
 - Power BI: DAX and Visualization
@@ -29,6 +54,8 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 - What is the distribution of revenue by coffee type?
 - In Which countries are the revenues highest and lowest?
 - What is the trend of revenue along the years?
+- What are the best ten products by revenue?
+- What are the worst ten products by revenue?
 
 #### Profit
 - What is the total profit?
