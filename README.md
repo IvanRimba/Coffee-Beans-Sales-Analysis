@@ -44,9 +44,11 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 6. Feature engineering - Joined various tables and created another table as a view. The sales_summary.
 
 ### Dashboards 
-![Dashboard](images/coffeeDB1.png)
+![Dashboard](charts/DB1.png)
 
-![Dashboard](images/CoffeeDB23.png) 
+![Dashboard](charts/DB2.png) 
+
+![Dashboard](charts/DB3.png) 
 
 ### Exploratory Data Analysis
 #### Revenue
@@ -108,33 +110,44 @@ WHERE row_num > 1;
 - The total revenue for the four years was $45.13K.
 - Excelsa coffee yielded the highest revenue at $12,306 closeley followed by Liberica at $12,054. Arabica and Robusta yielded $11,768 and $9,005 respectively.
 
-  ![Revenue by Coffee type](images/revenuebycoffeetype.png) 
+  ![Revenue by Coffee type](charts/revenuebycoffeetype.png) 
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
 
-  ![Revenue by country](images/coffeerevenuebycountry.png)
+  ![Revenue by country](charts/Revenuebycountry.png)
+- Top ten performing products by revenue.
+
+  ![10best](charts/Top10productsbyrevenue)
+- Bottom ten performing products by revenue.
+
+  ![10worst](charts/Bottom10productsbyrevenue)
+- Yearly revenue trend
+  
+  ![revenue trend](charts/Revenuebyyearandquarters)
 - Total profit stood at $4.52K.
 - Liberica coffee yielded the largest profit at $1,576 while Robusta yielded the lowest proit at $540. Excelsa and Arabica yielded $1,353 and $1,059 respectively.
 
-  ![Profit by Coffee type](images/coffeeprofit.png)
+  ![Profit by Coffee type](charts/profitbycoffeetype.png)
 
    -In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
 
-  ![Profit by year](images/coffeeprofitbyyear.png)
+  ![Profit by year](charts/profitbyyear.png)
 - In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
 
-  ![Quantity by coffee type and country](images/coffeetypeandcountry.png)
+  ![Quantity by coffee type and country](charts/Quantitybycountryandcoffeetype.png)
 
  
 - The most ordered coffee type is Arabica.
   
-  ![Quantity by coffee type](images/quantitybycoffeetype.png)
+  ![Quantity by coffee type](charts/Quantitybycoffeetype.png)
 - The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts.In UK, customers prefer the balanced flavor found in medium brown roasts.
  
-  ![Roast type by country](images/coffeeroasttypequantity.png)
+  ![Roast type by country](charts/Quantitybycountryandroasttype.png)
   
- - The number of customers without loyalty cards is 470, while customers with loyalty cards are 440. Non cardholders tend to purchase more in quantity than cardholders.  
+ - The number of customers without loyalty cards is 470, while customers with loyalty cards are 440.
+ 
+ - Non cardholders tend to purchase more in quantity than cardholders.  
 
-   ![Loyalty card](images/coffeequantitybyloyaltycard.png)
+   ![Loyalty card](charts/Quantitybyloyaltycard.png)
 
   
  ### Recommendations
