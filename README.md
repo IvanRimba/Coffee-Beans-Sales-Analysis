@@ -1,7 +1,19 @@
-# Coffee-Beans-Analysis
+# Coffee Beans Sales Analysis
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Data set](#data-set)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Objective Questions](#objective-questions)
+- [Code](#code)
+- [Findings](#findings)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+
 
 ### Project Overview
-This project aims to analyze coffee sales data to unwrap insights into revenue, profit, and customer preferences across different regions and coffee types. By scrutinizing trends and patterns, the project seeks to provide actionable recommendations for optimizing sales strategies and improving overall business performance.
+This project aims to analyze coffee sales data to unwrap insights into revenue, profit, quantity and customer preferences across different regions and coffee types. By scrutinizing trends and patterns, the project seeks to provide actionable recommendations for optimizing sales strategies and improving overall business performance.
 
 ### Data Set
 This data was obtained from kaggle. You can find it [here.](https://www.kaggle.com/datasets/saadharoon27/coffee-bean-sales-raw-dataset)
@@ -30,15 +42,15 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 - Profit: Profitability of each coffee product.
 
 
-### Tools
+### Tools Used
 - SQL: Data cleaning and Data analysis
 - Power BI: DAX and Visualization
 
-### Data cleaning/preparation
+### Data Cleaning and Preparation
 1. Data Loading - Created a database and also created three tables. Loaded data into the tables.
-2. Checking and handling missing values.
-3. Dropped useless columns.
-4. Duplicate check - Checked for duplicates and confirmed there are no duplicate records.
+2. Duplicate check - Checked for duplicates and confirmed there are no duplicate records.
+3. Checked and handled missing values.
+4. Dropped useless columns.
 5. Data type conversion - Updated date format to ensure proper analysis.
 6. Feature engineering - Joined various tables and created another table as a view. The sales_summary.
 
@@ -49,7 +61,7 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 
 ![Dashboard](charts/DB3.png) 
 
-### Exploratory Data Analysis
+### Objective Questions
 #### Revenue
 - What is the total revenue?
 - What is the distribution of revenue by coffee type?
@@ -63,6 +75,9 @@ This data was obtained from kaggle. You can find it [here.](https://www.kaggle.c
 - Express the profit as a percentage of Total Revenue.
 - What is the distribution of profit by coffee type?
 - What is the distribution of profit by years?
+
+#### Quantity
+- Daily quantity trend.
 
 #### Customer preferences
 - what coffee types are most and least preferred countrywise?
@@ -125,13 +140,14 @@ WHERE row_num > 1;
 
 - Daily quantity trend.
 
-  ![rQuantity trend](charts/Dailyquantity.png)
-- Total profit stood at $4.52K.
+  ![Quantity trend](charts/Dailyquantity.png)
+- Total profit stood at $4.52K which is 10% of the total revenue.
 - Liberica coffee yielded the largest profit at $1,576 while Robusta yielded the lowest proit at $540. Excelsa and Arabica yielded $1,353 and $1,059 respectively.
 
   ![Profit by Coffee type](charts/profitbycoffeetype.png)
 
-   -In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
+   -In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased 
+    by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
 
   ![Profit by year](charts/profitbyyear.png)
 - In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
