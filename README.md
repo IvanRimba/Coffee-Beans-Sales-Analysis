@@ -16,8 +16,6 @@
 This project aims to analyze coffee sales data to unwrap insights into revenue, profit, quantity and customer preferences across different regions and coffee types. By scrutinizing trends and patterns, the project seeks to provide actionable recommendations for optimizing sales strategies and improving overall business performance.
 
 ### Data Set
-This data was obtained from kaggle. You can find it [here.](https://www.kaggle.com/datasets/saadharoon27/coffee-bean-sales-raw-dataset)
-
 #### Orders Sheet:
 - Order ID: A unique identifier for each order made.
 - Order Date: The date when the order was placed.
