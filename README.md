@@ -29,7 +29,7 @@ This project aims to analyze coffee sales data to unwrap insights into revenue, 
 - Email Address: Contact information for customers.
 - Phone Number: Contact information for customers.
 
-#### Products Worksheet:
+#### Products Sheet:
 
 - Product ID: A unique identifier for each coffee product.
 - Coffee Type: The type or blend of coffee. Such as Arabica - Ara, Robusta - Rob, Liberica - Lib or Excelsa - Exc.
