@@ -78,12 +78,12 @@ This project aims to analyze coffee sales data to unwrap insights into revenue, 
 - Daily quantity trend.
 
 #### Customer preferences
-- what coffee types are most and least preferred countrywise?
-- what coffee type is generally preferred?
+- What coffee types are most and least preferred countrywise?
+- What coffee type is generally preferred?
 - What roast type is mostly preferred countrywise?
 
 #### Loyalty program
-- How many customers have the loyalty cards?
+- How many customers have loyalty cards?
 - What is the distribution of quantity by loyaltycards?
 
 ### Code
@@ -120,7 +120,7 @@ WHERE row_num > 1;
 ```
 ### Findings
 - The total revenue for the four years was $45.13K.
-- Excelsa coffee yielded the highest revenue at $12,306 closeley followed by Liberica at $12,054. Arabica and Robusta yielded $11,768 and $9,005 respectively.
+- Excelsa coffee yielded the highest revenue at $12,306 closely followed by Liberica at $12,054. Arabica and Robusta yielded $11,768 and $9,005 respectively.
 
   ![Revenue by Coffee type](charts/revenuebycoffeetype.png) 
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
@@ -132,7 +132,7 @@ WHERE row_num > 1;
 - Bottom ten performing products by revenue.
 
   ![10worst](charts/Bottom10productsbyrevenue.png)
-- Yearly revenue trend.
+- Revenue trend along the years.
   
   ![revenue trend](charts/Revenuebyyearandquarters.png)
 
@@ -144,23 +144,23 @@ WHERE row_num > 1;
 
   ![Profit by Coffee type](charts/profitbycoffeetype.png)
 
-   -In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased 
+- In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased 
     by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
 
   ![Profit by year](charts/profitbyyear.png)
 - In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
 
   ![Quantity by coffee type and country](charts/Quantitybycountryandcoffeetype.png)
-- The most ordered coffee type is Arabica.
+- Arabica is the most ordered type of coffee.
   
   ![Quantity by coffee type](charts/Quantitybycoffeetype.png)
-- The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts.In UK, customers prefer the balanced flavor found in medium brown roasts.
+- The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts. In UK, customers prefer the balanced flavor found in medium brown roasts.
  
   ![Roast type by country](charts/Quantitybycountryandroasttype.png)
   
- - The number of customers without loyalty cards is 470, while customers with loyalty cards are 440.
+ - The number of customers with loyalty cards is 440 while that of those who do not have is 470.
  
- - Non cardholders tend to purchase more in quantity than cardholders.  
+ - Non cardholders purchased more in quantity at 1,886 units than cardholders who purchased 1,665 units.  
 
    ![Loyalty card](charts/Quantitybyloyaltycard.png)
 
@@ -169,13 +169,13 @@ WHERE row_num > 1;
 - Increase market efforts to take advantage on the high revenue potential of Excelsa coffee.
 - Find out why Robusta lags behind in sales. Do promotions and discounts to increase its revenue.
 - Review the costs of Liberica so as to maintain and most preferably increase its large profitability.
-- Reevaluate the pricing and costs of Robusta to increase its profit.
+- Re-evaluate the pricing and costs of Robusta to increase its profit.
 - Ensure ample stock of Arabica to meet its high demand.
 - Run promotions centered around arabica.
 - Gather customer feedback to further enhance arabica offerings based on local offerings.
-- Emphasize and promote the most preferred roasts across countries in marketing campaigns. Customer engagement to use feedbacks and reviews to improve roast offerings to ensure they 
-  meet customer preferences in each country.
-- Maintaining consistent availability of the top-performing products to avoid missed sales opportunities due to stockouts and enhances customer experience by meeting demand 
+- Emphasize and promote the most preferred roasts across countries in marketing campaigns. Also, carry out customer engagement to use feedbacks and reviews to improve roast offerings to 
+  ensure they meet customer preferences in each country.
+- Maintaining consistent availability of the top-performing products to avoid missed sales opportunities due to stockouts. This enhances customer experience by meeting demand 
   consistently.
 - Conduct a thorough analysis to understand the reason behind the performace of the bottom ten products by revenue. 
 - Embrace the succesful strategies from 2021 to stabilize and increase profits.
