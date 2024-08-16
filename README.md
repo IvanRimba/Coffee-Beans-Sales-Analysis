@@ -26,7 +26,11 @@ Improve product offers by creating promotions and blends that are profitable and
 The loyalty program has to be reviewed because non-cardholders now make larger purchases than cardholders.
 
 - Analyzing Costs:
-Future analysis should include cost data to give a more precise picture of profitability and financial health.
+Re-evaluate the pricing and costs ofproducts to increase profit.
+Future analysis should include cost data to give a more precise picture of profitability.
+
+- Stock Management:
+Ensure consistent stock availability for high revenue products to prevent stockouts and meet customer demand, driving continued revenue growth and customer satisfaction.
 
 ### Project Overview
 This project aims to analyze coffee sales data to unwrap insights into revenue, profit, quantity and customer preferences across different regions and coffee types. By scrutinizing trends and patterns, the project seeks to provide actionable recommendations for optimizing sales strategies and improving overall business performance.
