@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+- [Executive Summary](#executive-summary)
 - [Project Overview](#project-overview)
 - [Data set](#data-set)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
@@ -11,6 +12,21 @@
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
 
+### Executive Summary
+This project examined sales data for different varieties of coffee in several regions, with an emphasis on revenue, profit patterns, consumer preferences, and sales performance over an extended period of time. Important information on product profitability, regional preferences, and consumer behavior was gleaned from the analysis. The United States is notably the leader in total revenue, with Arabica coffee being the most popular and Excelsa coffee earning the most revenue altogether. In 2022, there were notable drops in earnings and revenue, necessitating strategic adjustments.
+Keyrecommendations include;
+
+- Targeted Marketing:
+Promote light brown roasts in the United States, medium brown roasts in the United Kingdom, and dark brown roasts in Ireland.
+
+- Product Planning:
+Improve product offers by creating promotions and blends that are profitable and in line with local preferences.
+
+- Client Allegiance:
+The loyalty program has to be reviewed because non-cardholders now make larger purchases than cardholders.
+
+- Analyzing Costs:
+Future analysis should include cost data to give a more precise picture of profitability and financial health.
 
 ### Project Overview
 This project aims to analyze coffee sales data to unwrap insights into revenue, profit, quantity and customer preferences across different regions and coffee types. By scrutinizing trends and patterns, the project seeks to provide actionable recommendations for optimizing sales strategies and improving overall business performance.
