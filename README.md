@@ -141,20 +141,20 @@ WHERE row_num > 1;
   ![Revenue by Coffee type](charts/revenuebycoffeetype.png) 
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
 
-  ![Revenue by country](charts/Revenuebycountry.png)
+  ![Revenue by country](charts/revenuebycountry.png)
 - Top ten performing products by revenue.
 
-  ![10best](charts/Top10productsbyrevenue.png)
+  ![10best](charts/top10productsbyrevenue.png)
 - Bottom ten performing products by revenue.
 
   ![10worst](charts/Bottom10productsbyrevenue.png)
 - Revenue trend along the years.
   
-  ![revenue trend](charts/Revenuebyyearandquarters.png)
+  ![revenue trend](charts/quarterlyrevenue.png)
 
 - Daily quantity trend.
 
-  ![Quantity trend](charts/Dailyquantity.png)
+  ![Quantity trend](charts/dailyquantity.png)
 - Total profit stood at $4.52K which is 10% of the total revenue.
 - Liberica coffee yielded the largest profit at $1,576 while Robusta yielded the lowest proit at $540. Excelsa and Arabica yielded $1,353 and $1,059 respectively.
 
@@ -166,19 +166,19 @@ WHERE row_num > 1;
   ![Profit by year](charts/profitbyyear.png)
 - In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
 
-  ![Quantity by coffee type and country](charts/Quantitybycountryandcoffeetype.png)
+  ![Quantity by coffee type and country](charts/quantitybycountrybycoffeetype.png)
 - Arabica is the most ordered type of coffee.
   
-  ![Quantity by coffee type](charts/Quantitybycoffeetype.png)
+  ![Quantity by coffee type](charts/quantitybycoffeetype.png)
 - The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts. In UK, customers prefer the balanced flavor found in medium brown roasts.
  
-  ![Roast type by country](charts/Quantitybycountryandroasttype.png)
+  ![Roast type by country](charts/quantitybycountryandroasttype.png)
   
  - The number of customers with loyalty cards is 440 while that of those who do not have is 470.
  
  - Non cardholders purchased more in quantity at 1,886 units than cardholders who purchased 1,665 units.  
 
-   ![Loyalty card](charts/Quantitybyloyaltycard.png)
+   ![Loyalty card](charts/quantitybyloyaltycard.png)
 
   
  ### Recommendations
