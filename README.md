@@ -73,10 +73,6 @@ This project aims to analyze coffee sales data to unwrap insights into revenue, 
 6. Feature engineering - Joined various tables and created another table as a view. The sales_summary.
 
 ### Dashboards 
-![Dashboard](charts/DB1.png)
-
-![Dashboard](charts/DB2.png) 
-
 ![Dashboard](charts/DB3.png) 
 
 ### Objective Questions
