@@ -142,8 +142,9 @@ WHERE row_num > 1;
 - The total revenue for the four years was $45.13K.
 - Excelsa coffee yielded the highest revenue at $12,306 closely followed by Liberica at $12,054. Arabica and Robusta yielded $11,768 and $9,005 respectively.
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
-
-  ![Revenue by country](charts/revenuebycountry.png)
+  
+  ![Revenue by country](charts/revbycountry.png)
+  
 - Top ten performing products by revenue.
 - Bottom ten performing products by revenue.
 
