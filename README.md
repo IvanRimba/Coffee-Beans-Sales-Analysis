@@ -142,11 +142,11 @@ WHERE row_num > 1;
 - The total revenue stood at $45,134.
 - Excelsa coffee yielded the highest revenue at $12,306 closely followed by Liberica at $12,054. Arabica and Robusta yielded $11,768 and $9,005 respectively.
 
-  ![Revenue by coffee type](charts/Revbycoffeetype.png)
+  ![Revenue by coffee type](charts/revbycoffeetype.png)
 
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
   
-  ![Revenue by country](charts/revbycountry.png)
+  ![Revenue by country](charts/Revbycountry.png)
   
 - Top 5 performing products by revenue.
 
@@ -181,7 +181,7 @@ WHERE row_num > 1;
   ![Quantity by coffee type](charts/quantitybycoffeetype.png)
 - The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts. In UK, customers prefer the balanced flavor found in medium brown roasts.
  
-  ![Roast type by country](charts/quantitybycountryandroasttype.png)
+  ![Roast type by country](charts/roasttypebycountry.png)
   
  - The number of customers with loyalty cards is 440 while that of those who do not have is 470.
  
