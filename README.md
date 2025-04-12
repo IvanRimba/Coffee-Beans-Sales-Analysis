@@ -169,8 +169,14 @@ WHERE row_num > 1;
 
 - In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased 
   by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
+
+  ![Profit by year](charts/profitbyyear.png)
+  
 - In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
-- Arabica is the most ordered type of coffee.
+
+  ![Coffee type by country](charts/coffeetypebycountry.png)
+
+- Arabica is the most preferred type of coffee.
   
   ![Quantity by coffee type](charts/quantitybycoffeetype.png)
 - The most preferred roast type in USA is light brown. In Ireland, customers mostly prefer the bolder, robust flavours of dark brown roasts. In UK, customers prefer the balanced flavor found in medium brown roasts.
