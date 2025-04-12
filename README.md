@@ -185,7 +185,9 @@ WHERE row_num > 1;
   
  - The number of customers with loyalty cards is 440 while that of those who do not have is 470.
  
- - Non cardholders purchased more in quantity at 1,886 units than cardholders who purchased 1,665 units.  
+ - Non cardholders purchased more in quantity at 1,886 units than cardholders who purchased 1,665 units.
+
+   ![Quantity by loyalty](charts/quantitybyloyalty.png)
   
  ### Recommendations
 - Increase market efforts to take advantage on the high revenue potential of Excelsa coffee.
