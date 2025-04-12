@@ -14,7 +14,7 @@
 
 ### Executive Summary
 This project examined sales data for different varieties of coffee in several regions, with an emphasis on revenue, profit patterns, consumer preferences, and sales performance over an extended period of time. Important information on product profitability, regional preferences, and consumer behavior was gleaned from the analysis. The United States is notably the leader in total revenue, with Arabica coffee being the most popular and Excelsa coffee earning the most revenue altogether. In 2022, there were notable drops in earnings and revenue, necessitating strategic adjustments.
-Keyrecommendations include;
+Key recommendations include;
 
 - Targeted Marketing:
 Promote light brown roasts in the United States, medium brown roasts in the United Kingdom, and dark brown roasts in Ireland.
@@ -26,7 +26,7 @@ Improve product offers by creating promotions and blends that are profitable and
 The loyalty program has to be reviewed because non-cardholders now make larger purchases than cardholders.
 
 - Analyzing Costs:
-Re-evaluate the pricing and costs ofproducts to increase profit.
+Re-evaluate the pricing and costs of products to increase profit.
 Future analysis should include cost data to give a more precise picture of profitability.
 
 - Stock Management:
@@ -85,8 +85,8 @@ This project aims to analyze coffee sales data to unwrap insights into revenue, 
 - What is the distribution of revenue by coffee type?
 - In Which countries are the revenues highest and lowest?
 - What is the trend of revenue along the years?
-- What are the best ten products by revenue?
-- What are the worst ten products by revenue?
+- What are the best five performing products by revenue?
+- What are the least five performing products by revenue?
 
 #### Profit
 - What is the total profit?
@@ -95,11 +95,11 @@ This project aims to analyze coffee sales data to unwrap insights into revenue, 
 - What is the distribution of profit by years?
 
 #### Quantity
-- Daily quantity trend.
+- Quantity trend.
 
 #### Customer preferences
 - What coffee types are most and least preferred countrywise?
-- What coffee type is generally preferred?
+- What coffee type is  generally preferred?
 - What roast type is mostly preferred countrywise?
 
 #### Loyalty program
@@ -139,10 +139,10 @@ FROM duplicates
 WHERE row_num > 1;
 ```
 ### Findings
-- The total revenue for the four years was $45.13K.
+- The total revenue stood at $45,134.
 - Excelsa coffee yielded the highest revenue at $12,306 closely followed by Liberica at $12,054. Arabica and Robusta yielded $11,768 and $9,005 respectively.
 
-  ![Revenue by coffee type](charts/revbycoffeetype.png)
+  ![Revenue by coffee type](charts/Revbycoffeetype.png)
 
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
   
