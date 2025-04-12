@@ -141,18 +141,32 @@ WHERE row_num > 1;
 ### Findings
 - The total revenue for the four years was $45.13K.
 - Excelsa coffee yielded the highest revenue at $12,306 closely followed by Liberica at $12,054. Arabica and Robusta yielded $11,768 and $9,005 respectively.
+
+  ![Revenue by coffee type](charts/revbycoffeetype.png)
+
 - USA had the highest revenue at $35,639 while UK had the lowest revenue at $2,799.
   
   ![Revenue by country](charts/revbycountry.png)
   
-- Top ten performing products by revenue.
-- Bottom ten performing products by revenue.
+- Top 5 performing products by revenue.
 
-  ![10worst](charts/Bottom10productsbyrevenue.png)
+  ![5 best products by revenue](charts/top5productsbyrevenue.png)
+  
+- Bottom 5 performing products by revenue.
+
+  ![5 worst products by revenue](charts/bottom5productsbyrevenue.png)
 - Revenue trend along the years.
+  
+  ![Revenue trend](charts/revtrend.png)
 - Daily quantity trend.
+
+  ![Quantity trends](charts/quantitytrends.png)
+ 
 - Total profit stood at $4.52K which is 10% of the total revenue.
 - Liberica coffee yielded the largest profit at $1,576 while Robusta yielded the lowest proit at $540. Excelsa and Arabica yielded $1,353 and $1,059 respectively.
+
+  ![Profit by coffee type](charts/profitbycoffeetype.png)
+
 - In 2019 the business established a base profit of $1,230. In 2020 there was a slight drop to $1,193 likely to have been caused by the Covid19 pandemic. In 2021 the profit increased 
   by 15.8% reaching $1,382 followed by a drastic drop to $708 in 2022.
 - In USA, Arabica is the most preferred coffee type and Liberica the least preffered. In UK, customers mostly prefer Robusta and they least prefer Arabica. In ireland, Arabica is the most preferred coffee type while Excelsa is the least preferred.
